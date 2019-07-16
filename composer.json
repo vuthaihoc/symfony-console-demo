@@ -1,0 +1,17 @@
+{
+    "name": "hocvt/symfony_command",
+    "authors": [
+        {
+            "name": "Vu Thai Hoc",
+            "email": "vuthaihoc.ttud@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.3"
+    },
+    "autoload": {
+        "psr-4" : {
+            "HocVT\\Demo\\" : "src"
+        }
+    }
+}
